@@ -1,0 +1,98 @@
+<div class="container">
+        <i class="fa-solid fa-plus"></i>
+        <h1><i class="fa-solid fa-plus"></i>Sell Your Artwork !</h1>
+        
+        <div class="card">
+            <h2><i class="fa-solid fa-camera-retro"></i>Take 5 photos!</h2>
+            <div class="image-upload">
+                <div class="upload-card">
+                    <input type="file" name="image1" accept="image/*">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <div class="upload-card">
+                    <input type="file" name="image2" accept="image/*">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <div class="upload-card">
+                    <input type="file" name="image3" accept="image/*">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <div class="upload-card">
+                    <input type="file" name="image4" accept="image/*">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <div class="upload-card">
+                    <input type="file" name="image5" accept="image/*">
+                    <i class="fas fa-camera"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Description</h2>
+            <textarea id="description" name="description" rows="5" placeholder="Describe your artwork"></textarea>
+        </div>
+
+        <div class="card">
+            <h2>Set Your Price</h2>
+            <input type="number" id="price" name="price" placeholder="Price in USD">
+        </div>
+
+        <div class="card">
+            <h2>User Information</h2>
+            <input type="text" id="address" name="address" placeholder="Address">
+            <input type="text" id="postalCode" name="postalCode" placeholder="Postal Code">
+            <input type="text" id="city" name="city" placeholder="City">
+        </div>
+
+        <button type="submit">Submit</button>
+    </div>
+
+
+
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 90px;
+        color: black;
+       
+    }
+    h1 i {
+        margin-right: 16px;
+        color:#ff5d0c;
+    }
+    h2 i{
+        margin-right: 16px;
+        color:#ff5d0c;
+    }
+
+    
+    .card {
+        background: white;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    
+    .card h2 {
+        margin-top: 0;
+    }
+    
+    input[type="file"],
+    input[type="text"],
+    input[type="number"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    

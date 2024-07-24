@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sell.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="c:\Users\ranac\Desktop\run.png" alt="Logo"></a>
+            <span class="logo-text">RunArt</span>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="nav-icons">
+            <a href="#" class="icon"><i class="fas fa-heart"></i></a>
+            <a href="#" class="icon"><i class="fas fa-shopping-cart"></i></a>
+            <a href="sell.html"><button class="sell-button">Sell</button></a>
+           
+        </div>
+    </nav>
+    <header>
+        <h1><i class="fas fa-plus-circle"></i> Sell Your Artwork !</h1>
+    </header>
+    <div class="container">
+        <form id="sellArtworkForm">
+            <div class="card">
+                <h2><i class="fa-solid fa-camera-retro"></i>Take 5 photos!</h2>
+                <div class="image-upload">
+                    <div class="upload-card">
+                        <input type="file" name="image1" accept="image/*">
+                        <i class="fas fa-camera"></i>
+                        <p>Click to select</p>
+        
+                    </div>
+                    <div class="upload-card">
+                        <input type="file" name="image2" accept="image/*">
+                        <i class="fas fa-camera"></i>
+                        <p>Click to select</p>
+                    </div>
+                    <div class="upload-card">
+                        <input type="file" name="image3" accept="image/*">
+                        <i class="fas fa-camera"></i>
+                        <p>Click to select</p>
+                    </div>
+                    <div class="upload-card">
+                        <input type="file" name="image4" accept="image/*">
+                        <i class="fas fa-camera"></i>
+                        <p>Click to select</p>
+                    </div>
+                    <div class="upload-card">
+                        <input type="file" name="image5" accept="image/*">
+                        <i class="fas fa-camera"></i>
+                        <p>Click to select</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <h2><i class="fa-solid fa-pencil"></i>Artwork Details !</h2>
+                <input type="text" id="title" name="title" placeholder="Title of the artwork" required>
+                <textarea id="description" name="description" rows="5" placeholder="Describe your artwork" required></textarea>
+                <input type="number" id="price" name="price" placeholder="Price in DT" required>
+            </div>
+            <div class="card">
+                <h2><i class="fa-solid fa-address-book"></i></i>Contact Informations !</h2>
+                <input type="text" id="title" name="title" placeholder="Enter your adress" required>
+                <textarea id="description" name="description" rows="5" placeholder="Enter your code postal" required></textarea>
+                <input list="cities" id="city" name="city" placeholder="Select your city" required>
+                <datalist id="cities">
+                    <option value="Ariana">
+                    <option value="Beja">
+                    <option value="Ben Arous">
+                    <option value="Bizerte">
+                    <option value="Gabes">
+                    <option value="Gafsa">
+                    <option value="Jendouba">
+                    <option value="Kairouan">
+                    <option value="Kasserine">
+                    <option value="Kebili">
+                    <option value="La Manouba">
+                    <option value="El Kef">
+                    <option value="Mahdia">
+                    <option value="Mednine">
+                    <option value="Monastir">
+                    <option value="Nabeul">
+                    <option value="Sfax">
+                    <option value="Sidi Bouzid">
+                    <option value="Siliana">
+                    <option value="Sousse">
+                    <option value="Tataouine">
+                    <option value="Tozeur">
+                    <option value="Tunis"></option>
+                                    </option>
+                                </option>
+                            </option>
+                        </option>
+                    </option>
+                    </option>
+                    </option>
+                </datalist>
+                
+                
+            </div>
+            
+
+            
+
+            <button  class="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
